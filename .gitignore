@@ -1,0 +1,17 @@
+# Credenciales privadas
+.env
+.env.*
+!.env.example
+dist/dashboard/config/config.local.php
+dist/dashboard/config/credenciales.php
+dist/dashboard/config/conexion.php
+dist/dashboard/probar_conexion.php
+
+# Copias de bases de datos
+*.sql
+
+# Archivos temporales y registros
+*.log
+*.tmp
+Thumbs.db
+.DS_Store

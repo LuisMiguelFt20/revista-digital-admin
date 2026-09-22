@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Al publicar en un dominio, reemplaza localhost por la dirección real.
+Sitemap: http://localhost/revista-digital-admin/dist/sitio-publico/sitemap.php
