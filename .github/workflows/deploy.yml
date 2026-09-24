@@ -1,0 +1,43 @@
+name: Desplegar en alwaysdata
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar código de GitHub
+        uses: actions/checkout@v4
+
+      - name: Instalar herramientas
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sshpass rsync
+
+      - name: Registrar servidor de alwaysdata
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H ssh-luismiguel.alwaysdata.net >> ~/.ssh/known_hosts
+
+      - name: Desplegar sitio web
+        env:
+          SSHPASS: ${{ secrets.ALWAYSDATA_PASSWORD }}
+        run: |
+          sshpass -e rsync -avz \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='.env' \
+            --exclude='.env.*' \
+            --exclude='*.sql' \
+            --exclude='**/uploads/**' \
+            --exclude='dist/dashboard/config/conexion.php' \
+            --exclude='dist/dashboard/config/config.local.php' \
+            --exclude='dist/dashboard/config/credenciales.php' \
+            --exclude='dist/dashboard/probar_conexion.php' \
+            -e "ssh -o PreferredAuthentications=keyboard-interactive,password" \
+            ./ luismiguel@ssh-luismiguel.alwaysdata.net:/home/luismiguel/www/revista-digital-admin-main/
