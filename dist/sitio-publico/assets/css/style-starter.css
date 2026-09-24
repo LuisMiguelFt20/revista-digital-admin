@@ -12756,3 +12756,70 @@ form.signin-form, .map-content-5 {
     height: 100%;
     border: 0;
 }
+
+/* =========================================
+   TARJETAS DE NOTICIAS DEL MISMO TAMAÑO
+   ========================================= */
+
+.grids-block-5 .row {
+    align-items: stretch;
+}
+
+/* Cada tarjeta ocupa la misma altura */
+.grids-block-5 .grids5-info {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+/* Contenedor cuadrado para todas las imágenes */
+.grids-block-5 .grids5-info > a.d-block {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+/* Todas las imágenes tendrán las mismas medidas */
+.grids-block-5 .grids5-info > a.d-block img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Parte inferior de la tarjeta */
+.grids-block-5 .grids5-info .blog-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 260px;
+    padding: 30px 26px;
+}
+
+/* Mantiene espacio igual para los títulos */
+.grids-block-5 .grids5-info .blog-info h4 {
+    margin-bottom: 20px;
+}
+
+/* Coloca todos los botones Leer en la misma posición */
+.grids-block-5 .grids5-info .blog-info .btn {
+    margin-top: auto !important;
+}
+
+/* Separación cuando las tarjetas bajen de fila */
+@media (max-width: 991px) {
+    .grids-block-5 .grids5-info {
+        margin-bottom: 30px;
+    }
+}
+
+/* Ajuste para celulares */
+@media (max-width: 575px) {
+    .grids-block-5 .grids5-info .blog-info {
+        min-height: 230px;
+        padding: 25px 20px;
+    }
+}
