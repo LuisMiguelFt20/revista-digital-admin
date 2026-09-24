@@ -53,7 +53,7 @@ Author URL: http://w3layouts.com
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>DDP Noticias - Diálogo y Desarrollo Perú</title>
+    <title>DDP Noticias - Actualizado desde GitHub</title>
     <meta name="description" content="<?=escapar($descripcionSeo)?>">
     <meta name="robots" content="index,follow,max-image-preview:large">
     <link rel="canonical" href="<?=escapar($urlCanonica)?>">
