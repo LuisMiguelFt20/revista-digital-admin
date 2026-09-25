@@ -1,264 +1,258 @@
+# Revista Digital – DDP Noticias
 
-<p align="center">
-  <a href="https://hopeui.iqonic.design/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github" target="__blank" title="Hope UI">
-    <img src="https://assets.iqonic.design/hope-ui/github/logo.png" />
-  </a>
-</p>
-<p align="center">
-<a href="https://github.com/iqonicdesignofficial/hope-ui-design-system/" target="__blank"><img src="https://img.shields.io/github/stars/iqonicdesignofficial/hope-ui-design-system" /> </a>
-<a href="https://github.com/iqonicdesignofficial/hope-ui-design-system/network" target="__blank"><img src="https://img.shields.io/github/forks/iqonicdesignofficial/hope-ui-design-system" /> </a>
-<a href="https://github.com/iqonicdesignofficial/hope-ui-design-system/issues" target="__blank"><img src="https://img.shields.io/github/issues/iqonicdesignofficial/hope-ui-design-system" /> </a>
-<a href="#" target="__blank"><img src="https://img.shields.io/bower/v/editor.md.svg" /> </a>
-<a href="https://github.com/iqonicdesignofficial/hope-ui-design-system/blob/main/LICENSE" target="__blank"><img src="https://img.shields.io/github/license/iqonicdesignofficial/hope-ui-design-system" /> </a>
-<a href="https://twitter.com/iqonicdesign" target="__blank"><img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fiqonicdesign" /></a>
-</p>
-<h3 align="center">Free Open Source Bootstrap 5 Design System.</h3>
-<p align="center">
-  <a href="https://templates.iqonic.design/hope-ui/html/dist" title="Hope UI"><strong>Live Demo</strong></a>
-  <span>|</span>
-  <a href="https://www.figma.com/community/file/1009728454881721702" title="Hope UI"><strong>Figma UI Kit</strong></a>
-  <span>|</span>
-  <a href="https://iqonic.design/product/admin-templates/hope-ui-admin-free-open-source-bootstrap-admin-template/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github" title="Hope UI"><strong>HTML Dashboard</strong></a>
-  <span>|</span>
-  <a href="https://iqonic.design/product/admin-templates/hope-ui-open-source-vue-js-admin-template/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github" title="Hope UI"><strong>Vue JS Dashboard</strong></a>
-  <span>|</span>
-  <a href="https://iqonic.design/product/admin-templates/hope-ui-free-open-source-react-admin-template/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github" title="Hope UI"><strong>React JS Dashboard</strong></a>
-  <span>|</span>
-  <a href="https://iqonic.design/product/admin-templates/hope-ui-free-open-source-laravel-admin-panel/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github" title="Hope UI"><strong>Laravel Dashboard</strong></a>
-</p>
+Sistema web desarrollado para administrar y publicar contenido informativo de **Diálogo y Desarrollo Perú (DDP Noticias)**. El proyecto incluye un sitio público para los lectores, un panel administrativo para gestionar el contenido y un proceso de despliegue automático desde GitHub hacia alwaysdata.
 
-------------
+## Enlaces del proyecto
 
-<a href="https://templates.iqonic.design/hope-ui/html/dist" target="__blank" title="Hope UI Dashboard">
-  <img src="https://assets.iqonic.design/hope-ui/github/rtl-mode-min.png" alt="Hope UI Dashboard" />
-</a>
+- **Repositorio:** [github.com/LuisMiguelFt20/revista-digital-admin](https://github.com/LuisMiguelFt20/revista-digital-admin)
+- **Sitio público:** [luismiguel.alwaysdata.net/dist/sitio-publico/](https://luismiguel.alwaysdata.net/dist/sitio-publico/)
+- **Panel administrativo:** [luismiguel.alwaysdata.net/dist/dashboard/auth/sign-in.php](https://luismiguel.alwaysdata.net/dist/dashboard/auth/sign-in.php)
+- **Ejecuciones de despliegue:** [GitHub Actions](https://github.com/LuisMiguelFt20/revista-digital-admin/actions)
 
-Hope UI – free open source Bootstrap Design System is a gorgeously built UI kit based on bootstrap 5. The best free Bootstrap 5 design system is fully responsive and user-friendly, allowing Hope UI users to work effortlessly.
-Being easily adaptable and flexible, Hope UI can be a go-to design system for the developer out there.
+> Las credenciales del panel, de la base de datos y del servidor no se publican en este repositorio.
 
-Looking up to creating a new application for a personal project or client? Hope UI – free open source Bootstrap design system can help build a robust and understandable admin dashboard or website without spending much time designing the whole thing from scratch.
+## Funcionalidad general
 
-### What Can You Do with The Hope UI
+El sistema está dividido en dos partes principales:
 
-Hope UI is packed with finely-crafted UI elements, multiple styles of Menu, a set of graphs, charts, and animated icons.
-Built ideally for developers, designers, and startups, or Creators, Hope UI brings design consistency and acts as a strong foundation to manage a successful web or app project.
+### Sitio público
 
-### 5 Irresistible Reasons To Have Hope UI
-- Unlike any other Design System, Hope UI is fully responsive which facilitates business owners to view the admin panel right from their mobile screens without losing the resolution.
-- With the purpose of data presentation, this best free Bootstrap 5 design system comes with extensive elements and widgets to add texts and images. 
-- Besides being super easy and rapidly adaptable features, Hope UI is the cost-effective way to control and overview web or app project performance with a pre-coded design system and examples.
-- Hope UI is a strongly built system, a layout that focuses on both the scalability and performance of the project.
-- Hope UI Packs 100+ Fully-Codes Elements and widgets backed with SCSS and Gulp to make the development easy and fast.
+Permite que cualquier visitante consulte el contenido publicado. Incluye las siguientes secciones:
 
+- Inicio.
+- Actualidad.
+- Reportajes.
+- Podcast.
+- Boletín NTEP.
+- Alianzas.
+- Sobre D&D.
+- Contacto.
 
-### Features
+Las publicaciones que se muestran en esta parte se obtienen desde la base de datos. El sitio presenta imágenes, fechas, títulos, resúmenes y páginas de detalle.
 
-- Support with bootstrap 5
-- Scss component based design
-- HBS(Handlebar) based html
-- Fully Responsive
-- Clean Code
-- Demo Pages
-- Color Mode
-- Direction Mode
-- Layout Setting
-- 30+ Menu Styles
+### Panel administrativo
 
-<a href="https://www.youtube.com/watch?v=3OMj6nqDuAA" title="Hope UI" target="__blank">
-  <img src="https://assets.iqonic.design/hope-ui/github/hope-ui-youtube.png" alt="Hope UI Video" />
-</a>
+Es un área privada destinada a los usuarios autorizados. Sus funciones principales son:
 
-# Table of Contents
+- Inicio de sesión seguro.
+- Administración de contenidos.
+- Creación y edición de reportajes.
+- Publicación y actualización de información.
+- Gestión de imágenes relacionadas con las publicaciones.
+- Control de módulos y permisos del sistema.
 
-  - [Quick Start](#quick-start)
-    - [Method 1: Direct Download](#method-1-direct-download)
-    - [Method 2: Using NPM](#method-2-using-npm)
-  - [Documentation](#documentation)
-  - [Version](#version)
-  - [Public RoadMap](#public-roadmap)
-  - [File Structure](#file-structure)
-  - [Browser Support](#browser-support)
-  - [Don't Buy a Coffee for Us Instead Support Us](#dont-buy-a-coffee-for-us-instead-support-us)
-  - [More from Iqonic Design](#more-from-iqonic-design)
-  - [Reporting Issues](#reporting-issues)
-  - [Special Thanks](#special-thanks)
-  - [Change Log](#change-log)
-  - [Follow Us](#follow-us)
-  - [Licensing](#licensing)
+Los cambios realizados desde el panel se almacenan en la base de datos y se reflejan en el sitio público.
 
-## Quick Start
+## Tecnologías utilizadas
 
-You can use following method to get started with CSS and JS files of the design system.
+- PHP.
+- MySQL/MariaDB.
+- HTML5.
+- CSS3 y SCSS.
+- JavaScript.
+- Bootstrap 5.
+- Gulp y npm para recursos del frontend.
+- Git y GitHub para control de versiones.
+- GitHub Actions para despliegue automático.
+- alwaysdata como servicio de alojamiento.
+- FileZilla/SFTP para la carga y verificación inicial de archivos.
 
-### Method 1: Direct Download
-[Dowload from Github](https://github.com/iqonicdesignofficial/hope-ui-design-system/archive/refs/heads/main.zip)
+## Estructura principal
 
-[Download from Iqonic Design](https://iqonic.design/product/admin-templates/hope-ui-admin-free-open-source-bootstrap-admin-template/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github)
-
-### Method 2: Using NPM
-Start working with the design system
-1. Install Dependency
+```text
+revista-digital-admin/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml          # Despliegue automático
+├── dist/
+│   ├── assets/                 # CSS, JavaScript, imágenes y librerías
+│   ├── dashboard/              # Panel administrativo y configuración PHP
+│   ├── landing-pages/          # Recursos adicionales de la plantilla
+│   └── sitio-publico/          # Portal visible para los lectores
+├── gulp/                       # Tareas auxiliares de compilación
+├── src/                        # Archivos fuente del frontend
+├── gulpfile.js                 # Configuración de tareas Gulp
+├── package.json                # Dependencias y comandos npm
+└── README.md                   # Documentación general del proyecto
 ```
+
+## Requisitos para ejecución local
+
+- PHP 8 o una versión compatible.
+- MySQL o MariaDB.
+- Servidor local como XAMPP, WAMP o Laragon.
+- Node.js y npm, solamente si se modificarán o compilarán los recursos del frontend.
+- Git, si se desea clonar y versionar el proyecto.
+
+## Instalación local
+
+1. Clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/LuisMiguelFt20/revista-digital-admin.git
+   ```
+
+2. Ingresar en el proyecto:
+
+   ```bash
+   cd revista-digital-admin
+   ```
+
+3. Colocar la carpeta dentro del directorio público del servidor local. En XAMPP normalmente se utiliza `htdocs`.
+
+4. Crear una base de datos local e importar la copia SQL proporcionada de manera privada por el responsable del proyecto.
+
+5. Crear o completar el archivo local de conexión dentro de la configuración del panel. Se debe usar una estructura similar a la siguiente, sin publicar datos reales:
+
+   ```php
+   <?php
+   $conexion = new PDO(
+       'mysql:host=SERVIDOR;dbname=NOMBRE_BASE;charset=utf8mb4',
+       'USUARIO',
+       'CONTRASENA',
+       [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
+   );
+   ```
+
+6. Abrir el proyecto desde el navegador. Por ejemplo:
+
+   ```text
+   http://localhost/revista-digital-admin/dist/sitio-publico/
+   ```
+
+## Recursos del frontend
+
+Si se modifican archivos fuente de estilos o scripts, primero se instalan las dependencias:
+
+```bash
 npm install
 ```
 
-2. Run on development 
-```
+Para trabajar en modo de desarrollo:
+
+```bash
 npm run watch
 ```
-3. Build for production
-```
+
+Para generar los archivos de producción:
+
+```bash
 npm run build
 ```
-[More Details...](https://templates.iqonic.design/hope-ui/documentation/html/dist/main/gulp.html)
-## Documentation
-You can find our documentation [here](https://templates.iqonic.design/hope-ui/documentation/html/dist/main/).
 
-## Version
-- [Figma](https://www.figma.com/community/file/1009728454881721702)
-- [HTML Admin Dashboard](https://iqonic.design/product/admin-templates/hope-ui-admin-free-open-source-bootstrap-admin-template/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github)
-- [Vue JS Dashobard](https://iqonic.design/product/admin-templates/hope-ui-open-source-vue-js-admin-template/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github)
-- [React JS Dashobard](https://iqonic.design/product/admin-templates/hope-ui-free-open-source-react-admin-template/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github)
-- [Laravel Dashobard](https://iqonic.design/product/admin-templates/hope-ui-free-open-source-laravel-admin-panel/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github)
+Los comandos disponibles dependen de los scripts definidos en `package.json`.
 
-## Public RoadMap
-Checkout our public roadmap of Hope UI and also submit features requests [here](https://iqonic.design/hopeui-roadmap/).
-## File Structure
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
-```
-github/hope-ui-admin-dashboard/
-  dist
-    ├── assets
-    │    ├── css
-    │    ├── images
-    │    ├── js
-    │    └── vendor
-    ├── dashboard
-    │    └── all html pages on folder based
-    └── index.html
-  src
-    ├── assets
-    │    ├── images
-    │    │    ├── icon.png
-    │    │    ├── favicon.ico
-    │    │    └── loader.gif
-    │    ├── js
-    │    │    ├── hope-ui.js
-    |    │    └── plugins
-    |    │         ├── slider-tabs.js
-    |    │         ├── countdown.js
-    |    |         └── prism.min.js
-    │    └── scss
-    │        ├── bootstrap/
-    │        │     ├── forms/
-    │        │     ├── helper/
-    │        │     ├── mixins/
-    │        │     ├── utilites/
-    │        │     └── vendor/
-    │        ├── custom
-    │        │     ├── auth/
-    │        │     ├── kanban/
-    │        │     ├── pricing/
-    │        │     └── ui-kit/
-    |        ├──customizer
-    │        │     ├── components/
-    │        │     ├── layout/
-    │        │     ├── menu-style/
-    │        │     ├── utillities/
-    │        │     ├── components.scss
-    │        │     ├── dark.scss
-    │        │     ├── root.scss
-    │        │     └── variables.scss
-    │        ├── hope-ui-design-system
-    │        │     ├── components/
-    │        │     ├── helper/
-    │        │     ├── layout-style/
-    │        │     ├── pages/
-    │        │     ├── plugins/
-    │        │     ├── variables/
-    │        │     └── variables.scss
-    │        ├── dark
-    │        │     ├── components/
-    │        │     ├── helper/
-    │        │     ├── layout-style/
-    │        │     ├── pages/
-    │        │     ├── plugins/
-    │        │     ├── reboot/
-    │        │     ├── _dark.scss
-    │        │     └── _index.scss
-    │        ├── rtl
-    │        │     ├── components/
-    │        │     ├── pages/
-    │        │     ├── reboot/
-    │        │     ├── utilities/
-    │        │     └── _index.scss
-    │        ├── rtl.scss
-    │        ├── dark.scss
-    │        ├── custom.scss
-    |        ├── customizer.scss
-    │        └── hope-ui.scss
-    ├── templates
-    |    ├── layouts
-    │    |    ├── boxed-fancy
-    │    |    ├── boxed
-    │    |    ├── default
-    │    |    ├── dual-compact
-    │    |    ├── dual-horizontal
-    │    |    ├── horizontal
-    |    │    └── simple
-    |    ├── pages
-    |    │    ├── all folders based files
-    |    │    └── index.hbs
-    |    └── partials
-    |        ├── components/
-    |        └── all files based on hbs file in design system
-    ├── gulp
-    │    └── all gulp task here
-    ├── .gitignore
-    ├── gulp.config.json
-    ├── gulpfile.js
-    ├── LICENSE
-    ├── README.md
-    └── package.json
+## Base de datos
+
+La base de datos almacena usuarios administrativos, publicaciones, reportajes y demás información dinámica del portal.
+
+En el servidor de producción, la base de datos ya está configurada y poblada. El despliegue desde GitHub está diseñado para actualizar el código sin reemplazar automáticamente:
+
+- Las credenciales de conexión.
+- La información almacenada en las tablas.
+- Los archivos privados del servidor.
+- Las imágenes cargadas por los usuarios, cuando están excluidas del despliegue.
+
+Por seguridad, los datos de conexión y las copias de la base de datos no deben subirse a GitHub.
+
+## Despliegue automático desde GitHub
+
+El repositorio contiene el flujo `.github/workflows/deploy.yml`. Cada vez que se confirma un cambio en la rama `main`, GitHub Actions realiza el proceso de publicación.
+
+Flujo general:
+
+1. Un desarrollador modifica el código.
+2. Confirma el cambio mediante un *commit* en la rama `main`.
+3. GitHub Actions descarga la versión actual del repositorio.
+4. El flujo establece una conexión segura con alwaysdata.
+5. Los archivos autorizados se sincronizan con el servidor.
+6. La aplicación pública muestra la nueva versión del código.
+
+La contraseña SFTP se guarda como un secreto cifrado llamado `ALWAYSDATA_PASSWORD`. Su valor no aparece en el código ni en los registros normales del repositorio.
+
+## Cómo realizar una modificación
+
+### Desde la página de GitHub
+
+1. Abrir el archivo que se desea cambiar.
+2. Presionar el botón de edición.
+3. Realizar la modificación.
+4. Seleccionar **Commit changes**.
+5. Confirmar directamente en `main` solamente si el cambio fue revisado.
+6. Abrir la pestaña **Actions** y comprobar que el despliegue termine con una marca verde.
+7. Recargar la página pública para verificar el resultado.
+
+### Desde una computadora
+
+```bash
+git pull origin main
+git add .
+git commit -m "Descripción breve del cambio"
+git push origin main
 ```
 
-## Browser Support
-![chrome](https://assets.iqonic.design/hope-ui/github/chrome.png)
-![Firefox](https://assets.iqonic.design/hope-ui/github/Firefox.png)
-![Safari](https://assets.iqonic.design/hope-ui/github/Safari.png)
-![Microsoft](https://assets.iqonic.design/hope-ui/github/Microsoft%20edge.png)
-![Operamini](https://assets.iqonic.design/hope-ui/github/Operamini.png)
+Después del `push`, GitHub Actions inicia el despliegue automáticamente.
 
-## Don't Buy a Coffee for Us Instead Support Us
-- Star our GitHub repo ⭐
-- [Tweet about it](https://twitter.com/intent/tweet?text=Checkout%20%23HopeUI%20%E2%80%93%20Amazing%20open-source%20Bootstrap%205%20Admin%20Dashboard%20%26%20Design%20system.%20%23BuildwithHopeUI&url=https%3A%2F%2Fbit.ly%2F3ANB7gT).
-- Submit bugs, or suggest new features and documentation updates 🔧
-- Follow [@iqonicdesign](https://twitter.com/iqonicdesign) on Twitter.
-- Follow Us on [Instagram](https://www.instagram.com/iqonicdesign/)
-- Subscribe to Iqonic newsletter at [iqonic.design](https://iqonic.design)
+## Recomendaciones para colaboradores
 
-## More from Iqonic Design
-- [Free Products Every Week](https://iqonic.design/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github)
-- [Premium Themes, templates, dashbaords, Apps, and more](https://iqonic.design/shop/?iqonic=1&orderby=sales&paged=1&product_for=premium)
-- [Subscribe on Youtube](https://www.youtube.com/c/IqonicDesign)
-- [Reach US](https://iqonic.design/contact-us/)
-## Reporting Issues
-Have a bug or a feature request? Raise a new issue at our [github](https://github.com/iqonicdesignofficial/hope-ui-design-system/issues) support
+- Crear una rama para cambios grandes y usar un *pull request* antes de unirlos a `main`.
+- Probar las modificaciones localmente.
+- No publicar contraseñas, archivos de conexión ni exportaciones SQL.
+- No modificar la base de datos de producción desde GitHub.
+- No eliminar carpetas del servidor que contengan archivos subidos por los usuarios.
+- Revisar el resultado de GitHub Actions después de cada actualización.
+- Mantener mensajes de *commit* claros y descriptivos.
 
-## Special Thanks
-- [Bootstrap](https://getbootstrap.com/)
-- [Google Fonts](https://www.google.com/fonts)
-- [Jquery](https://jquery.com/)
-- [Apex Charts](https://apexcharts.com/)
-[Checkout complete list](https://templates.iqonic.design/hope-ui/documentation/html/dist/main/sourceAndCredit.html)
+## Seguridad aplicada
 
-## Change Log
-[Click Here](https://templates.iqonic.design/hope-ui/documentation/html/dist/main/change-log.html) to check our full change log.
-## Follow Us
-- [Twitter](https://twitter.com/iqonicdesign)
-- [Facebook](https://www.facebook.com/iqonicdesign/)
-- [Dribbble](https://dribbble.com/IqonicDesign)
-- [Instagram](https://www.instagram.com/iqonicdesign/)
-- [Product Hunt](https://www.producthunt.com/posts/iqonic-design)
-## Licensing
-- Code and Documentation Copyright 2021 All Rights Reserved by [IQONIC](https://iqonic.design/?utm_source=github&utm_medium=github-description&utm_campaign=open_source_github) Design. Code released under the [MIT](https://iqonic.design/licenses/) License.
+- Credenciales del servidor almacenadas mediante GitHub Secrets.
+- Acceso al panel administrativo mediante autenticación.
+- Separación entre el código versionado y la configuración privada.
+- Conexión PDO con manejo de errores mediante excepciones.
+- Uso de funciones de escape al mostrar contenido dinámico.
+- Despliegue por SSH/SFTP.
+- Base de datos y archivos sensibles excluidos del repositorio público.
+
+## Prueba rápida del sistema
+
+Después de cada despliegue se recomienda comprobar lo siguiente:
+
+1. El sitio público abre correctamente.
+2. El menú dirige a las secciones esperadas.
+3. Los reportajes cargan desde la base de datos.
+4. Las imágenes se visualizan sin errores.
+5. El inicio de sesión del administrador funciona.
+6. El contenido puede crearse o editarse desde el panel.
+7. El cambio realizado desde el panel aparece en el sitio público.
+8. La ejecución más reciente de GitHub Actions aparece en color verde.
+
+## Solución de problemas
+
+### La página muestra “Forbidden”
+
+Verificar que la URL apunte al directorio público correcto y que los archivos y carpetas tengan permisos de lectura adecuados.
+
+### La página no conecta con la base de datos
+
+Comprobar el archivo privado de conexión del servidor, el nombre de la base, el usuario autorizado y la disponibilidad del servicio MySQL. No publicar estas credenciales en incidencias o capturas.
+
+### GitHub Actions aparece en rojo
+
+Abrir la ejecución fallida en la pestaña **Actions**, identificar el paso con error y revisar que el secreto del servidor y las rutas del despliegue sigan configurados correctamente.
+
+### Se modificó GitHub, pero la página no cambió
+
+Confirmar que el cambio fue guardado en `main`, que la acción finalizó correctamente y que el navegador no está mostrando una copia en caché. Se puede realizar una recarga forzada con `Ctrl + F5`.
+
+## Autor
+
+**Uscamayta Guzmán Luis Miguel Herber**  
+Proyecto académico de desarrollo y despliegue web.
+
+## Créditos
+
+El panel administrativo utiliza componentes visuales basados en **Hope UI**, un sistema de diseño construido sobre Bootstrap 5. El contenido, la integración PHP/MySQL, el sitio público y la configuración de despliegue corresponden a la implementación de este proyecto.
+
+## Licencia
+
+Este repositorio conserva las licencias correspondientes de las librerías y plantillas de terceros utilizadas. El código propio se emplea con fines académicos.
